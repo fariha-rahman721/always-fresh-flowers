@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: auto;
     background-color: rgb(245, 248, 255);
@@ -7,7 +9,8 @@
 
 /* header */
 .header-style{
-    
+    font-family: "Noto Serif";
+
     gap: 590px;
     
 }
@@ -112,6 +115,8 @@ div ul li a{
     color: rgb(233, 90, 8);
 }
 .third-headline{
+    font-family: "Noto Serif";
+
     font-size: 50px;
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -123,4 +128,124 @@ div ul li a{
     color: rgba(0, 0, 0, 0.5);  
     width: 888px;
     height: 54px;
+}
+
+
+/* cards */
+.sample-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    margin-top: 80px;
+    
+    
+}
+.sample-card img{
+    width: 280px;
+    height: 323px;
+    gap: 35px;
+    filter: opacity(95%);
+}
+.lily-blossom{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.price{
+    margin: 10px 0 25px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    width: 81px;
+    height: 16px;
+}
+.flower-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+/* flower-plant-lover */
+
+
+.fourth-container{
+    display: flex;
+    margin-top: 80px;
+    max-width: 1140px;
+    gap: 40px;
+}
+.badge{
+    width: 86px;
+    height: 86px;
+    left: 497px;
+    top: 2072px;
+}
+
+.flower-plant-lover{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif";
+    color: rgb(0, 0, 0);
+    width: 540px;
+    height: 137px;
+    margin-bottom: 20px;
+    
+}
+.flower-plant-des{
+    font-family: "inter";
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+   
+}
+.flower-plant-des ul li{
+    list-style: disc;
+     width: 540px;
+    height: 108px;
+}
+.fourth-img{
+    width: 540px;
+    height: 597px;
+}
+
+
+/* latest deal */
+.dealing-section{
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.latest{
+    color: rgb(233, 90, 8);
+}
+.latest-deal{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif";
+    margin-bottom: 15px;
+}
+.dealing-section p{
+    
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
