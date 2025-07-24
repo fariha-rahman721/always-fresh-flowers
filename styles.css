@@ -1,0 +1,78 @@
+*{
+    margin: auto;
+    background-color: rgb(245, 248, 255);
+}
+.header-style .left-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-style{
+    gap: 590px;
+    
+}
+
+.navbar{
+    display: flex;
+}
+div ul li{
+    
+    list-style: none;
+
+}
+div ul li a{
+    text-decoration: none;
+    
+}
+.anchor-style{
+    display: flex;
+    gap: 48px;
+}
+.home-style{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(37, 36, 50)
+    
+}
+.common-style{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+}
+.cart-style{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/* first container */
+.left-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 1280px;
+    height: 461px;
+    left: 220px;
+    right: 100px;
+    top: 221px;
+    
+    
+
+}
+.fresh-flowers{
+    color: rgb(233, 90, 8);
+    
+}
+.always-fresh-flowers{
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+    .left-sec-img{
+    width: 100%;
+    
+}
