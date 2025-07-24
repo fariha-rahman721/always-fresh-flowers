@@ -1,14 +1,13 @@
 *{
     margin: auto;
     background-color: rgb(245, 248, 255);
+    
 }
-.header-style .left-section{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
 /* header */
 .header-style{
+    
     gap: 590px;
     
 }
@@ -46,20 +45,22 @@ div ul li a{
     font-weight: 400;
 
 }
+
+
+
 /* first container */
+
 .left-section{
     display: flex;
+    
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    margin: 0 auto;
-    width: 1280px;
+    margin: auto;
+    width: 1140px;
     height: 461px;
-    left: 220px;
-    right: 100px;
-    top: 221px;
-    
-    
+    left: 150px;
+    margin-bottom: 50px;
 
 }
 .fresh-flowers{
@@ -71,8 +72,55 @@ div ul li a{
     font-weight: 700;
 
 }
+.content-style{
+    width: 570px;
+    height: 178px;
+    gap: 0;
+}
 
+ .content-style p{
+   color: rgba(0, 0, 0, 0.5); 
+   font-size: 22px;
+   font-weight: 400;
+   width: 570px;
+   height: 108px;
+
+   
+ }
     .left-sec-img{
     width: 100%;
     
+}
+/* 3rd portion */
+
+.our-plant-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+    height: 68px;
+    gap: 16;
+    margin-bottom: 49px;
+    
+
+}
+
+.our-style{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(233, 90, 8);
+}
+.third-headline{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.our-plant-des{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400; 
+    color: rgba(0, 0, 0, 0.5);  
+    width: 888px;
+    height: 54px;
 }
