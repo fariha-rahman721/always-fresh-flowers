@@ -186,15 +186,24 @@ div ul li a{
 
 .fourth-container{
     display: flex;
-    margin-top: 80px;
+    margin-top: 100px;
     max-width: 1140px;
     gap: 40px;
+    position: relative;
 }
 .badge{
-    width: 86px;
-    height: 86px;
-    left: 497px;
-    top: 2072px;
+    position: absolute;
+    right: 550px;
+    top: -90px;
+    background: transparent;
+}
+
+.badge img{
+    width: 200px;
+    height: 200px;
+    
+    
+    
 }
 
 .flower-plant-lover{
@@ -248,4 +257,224 @@ text-align: center;
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/* discount bar */
+
+
+.discount-bar{
+max-width: 1140px;
+margin-top: 30px;
+gap: 20px;
+
+}
+
+
+
+.flower-discount{
+    display: flex;
+    gap: 15px;
+    
+}
+
+
+
+ #sixty-percent{
+    
+    text-align: center;
+    
+ }
+.left-dis{
+    
+
+}
+ 
+.discount-content{
+    font-family: "Noto Serif";
+    font-size: 20px;
+    font-weight: 800;
+    
+    width: 367px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+h3{
+    background-color: transparent;
+    margin-top: 90px;
+    filter: brightness(150%);
+
+}
+.bloom{
+    
+    background-image: url(./assets/deal-bloom.png);
+    background-size: cover;
+    border-radius: 12px;
+    
+}
+.ana{
+    background-image: url(./assets/deal-ana.png);
+    background-size: cover;
+    border-radius: 12px;
+}
+.zabo{
+    background-image: url(./assets/deal-zabo.png);
+    background-size: cover;
+    width: 753px;
+    height: 424px;
+    border-radius: 12px;
+}
+.left-bg-flower{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.shop-now{
+    margin-bottom: 50px;
+    background: transparent;
+}
+
+.shop-now a{
+    background-color: transparent;
+    
+    color: rgb(255, 255, 255);
+
+}
+
+.right-bg-flower h3{
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.right-bg-flower p a{
+    font-size: 40px;
+    
+}
+
+/* join colourful bunch */
+
+
+
+.last-sec-cont{
+    background-image: url(./assets/news-letter-bg.png);
+    width: 1140px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+
+.colourful-bunch{
+    font-family: "Noto Serif";
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 200px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    
+}
+.input-email{
+    width: 644px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 190px;
+    
+}
+.email-bar{
+    margin-left: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn-secondary{
+    width: 186px;
+    height: 50px;
+    margin-right: 1px;
+    border: none;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/* footer */
+
+
+
+.end-sec{
+    width: 1140px;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.last-logo{
+    width: 300px;
+height: 180px;
+margin-top: 10px;
+gap: 16px;
+
+}
+.last-logo p{
+    font-family: "Inter";
+font-size: 22px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.5);
+
+}
+
+.footer-anchor{
+    margin-top: 50px;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: center;
+}
+.footer-anchor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+
+    
+}
+.footer-anchor a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(107, 114, 128);
+    
+}
+.footer-icon{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.footer-icon img{
+    width: 36px;
+    height: 36px;
+    
+    
+
 }
