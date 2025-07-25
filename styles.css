@@ -478,3 +478,190 @@ color: rgba(0, 0, 0, 0.5);
     
 
 }
+
+
+
+@media screen and (max-width: 576px) {
+
+    .navbar{
+        width: 370px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        
+    }
+    .header-style{
+        margin: 0 auto;
+    }
+
+     .anchor-style li:nth-child(1),
+     li:nth-child(2),
+     li:nth-child(3) {
+        display: none;
+     }
+        
+     
+
+    .left-section{
+        flex-direction: column-reverse;
+        justify-items: flex-start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+.content-style h1{
+    font-size: 35px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -190px;
+    margin-top: 30px;
+
+}
+    .content-style p{
+        margin-left: -190px;
+        margin-top: 10px;
+
+    }
+
+
+    .left-section-img{
+        width: 395px;
+        padding: 50px;
+        
+        margin-bottom: 35px;
+
+
+    }
+    .third-headline, .our-style{
+        
+       font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+
+    }
+    .our-plant-style{
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 15px;
+        
+
+    }
+
+
+
+    .our-plant-des{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 336px;
+        height: 68px;
+        
+        
+
+    }
+
+    .flower-discount{
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 55px;
+
+    }
+    .bloom{
+         width: 450px;
+        height: 250px;
+
+    }
+    .ana{
+         width: 450px;
+        height: 250px;
+    }
+    .zabo{
+        width: 450px;
+        height: 250px;
+    }
+
+
+
+
+    .sample-card{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px 0;
+        padding: 20px 0;
+        gap: 20px;
+        align-items: center;
+    }
+    .our-plant-style{
+        margin-top: 150px;
+        margin-bottom: 80px;
+        
+        
+        
+    }
+    .badge img{
+        display: none;
+    }
+    .fourth-container{
+        flex-direction: column;
+    }
+    .fourth-img{
+        margin-left: 18px;
+    }
+
+
+
+    .dealing-section{
+        margin-left: 150px;
+    }
+    .dealing-section h2{
+        font-size: 38px;
+    }
+
+
+
+
+    .flower-plant-des ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .flower-discount{
+        flex-direction: column;
+        
+    }
+    .last-sec-cont{
+        width: 550px;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
+
+    }
+
+    .input-email{
+        width: 400px;
+    }
+    .btn-secondary{
+        width: 100px;
+    }
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-anchor{
+        display: flex;
+        flex-direction: column;
+    }
+    .display-flex{
+        width: 200px;
+      margin-left: 5px;
+    }
+
+
+}
