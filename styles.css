@@ -186,14 +186,14 @@ div ul li a{
 
 .fourth-container{
     display: flex;
-    margin-top: 100px;
+    margin-top: 140px;
     max-width: 1140px;
     gap: 40px;
     position: relative;
 }
 .badge{
     position: absolute;
-    right: 550px;
+    right: 530px;
     top: -90px;
     background: transparent;
 }
@@ -201,6 +201,7 @@ div ul li a{
 .badge img{
     width: 200px;
     height: 200px;
+    background-color: transparent;
     
     
     
